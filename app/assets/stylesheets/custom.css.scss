@@ -1,0 +1,127 @@
+$navbar-default-bg: black;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#logo {
+    float: left;
+    font-size: 1.7em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#logo:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.jumbotron {
+    background-image: url('road.jpg');
+    background-size: cover;
+    height: 550px;
+    border-radius: 0px;
+}
+
+.jumbotron h1 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.btn-xlarge {
+    font-size: 1.7em;
+    background-color: black;
+    border: none;
+    color: #fff;
+    -webkit-box-shadow: 5px 5px 20px 0px rgba(48,48,48,1);
+    -moz-box-shadow: 5px 5px 20px 0px rgba(48,48,48,1);
+    box-shadow: 5px 5px 20px 0px rgba(48,48,48,1);
+}
+
+.btn-xlarge:hover {
+    background-color: rgb(48, 48, 48);
+    color: #fff;
+    -webkit-box-shadow: 5px 5px 20px 0px rgba(0, 0, 0,1);
+    -moz-box-shadow: 5px 5px 20px 0px rgba(0, 0, 0,1);
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0,1);
+}
+
+.btn-xlarge:active:hover {
+    background-color:  rgba(48, 48, 48, .8);
+    color: #fff;
+    -webkit-box-shadow: 5px 5px 20px 0px rgba(0, 0, 0,1);
+    -moz-box-shadow: 5px 5px 20px 0px rgba(0, 0, 0,1);
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0,1);
+}
+
+.btn-xlarge:active {
+    background-color: rgba(48, 48, 48, .8);
+    color: #fff;
+    -webkit-box-shadow: 5px 5px 20px 0px rgba(0, 0, 0,1);
+    -moz-box-shadow: 5px 5px 20px 0px rgba(0, 0, 0,1);
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0,1);
+}
+
+footer {
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid #eaeaea;
+    color: #777;
+}
+
+footer a:hover {
+    color: #222;
+}
+
+footer small {
+    float: left;
+}
+
+footer ul {
+    float: right;
+    list-style: none;
+}
+
+footer ul li {
+    float: left;
+    margin-left: 15px;
+}
+
+.article-actions {
+    border-top: 1px solid #eaeaea;
+    padding-top: 5px;
+}
+
+.description {
+    margin-top: 0;
+}
+
+.article-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.article-body {
+    border-top: 1px solid #eaeaea;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.article-meta-details {
+    border-top: 1px solid #eaeaea;
+    margin-top: 15px;
+}
+
+.listing {
+    list-style: none;
+    padding-left: 0;
+}
