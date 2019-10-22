@@ -32,7 +32,7 @@ gem 'bootstrap-will_paginate'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 group :production do
-  gem 'pg', '~>0.11'
+  gem 'pg'
 end
 
 group :development, :test do
