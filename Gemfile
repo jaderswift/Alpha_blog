@@ -25,6 +25,10 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'will_paginate', '~> 3.1.7'
 gem 'bootstrap-will_paginate'
 
+gem 'omniauth-auth0', '~> 2.2'
+
+gem 'omniauth-rails_csrf_protection', '~> 0.1'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
